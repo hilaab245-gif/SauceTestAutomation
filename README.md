@@ -1,8 +1,9 @@
-SauceTestAutomation
+# Reviews  Saucedemo Automation Project
 
-1. To start the application, run the following command : python main.py
+## How To Run:
+ To start the application, run the following command : python main.py
 
-2. Configuration-<br>
+## Configuration:
    Configuration settings can be modified in the config/config.json file.<br>
    base_url – The URL of the application under test<br>
    username / password – Login credentials <br>
@@ -10,7 +11,7 @@ SauceTestAutomation
    Products – List of products to add to cart <br>
    sort_by – Sorting option for inventory page <br>
 
-3.Project Structure: <br>
+## Project Structure: 
   Config/ config json- configuration <br>
   Pages/ Implements -the Page Object Model each page of the application is represented as a separate class: <br>
   LoginPage.py – actions for the login screen <br>
